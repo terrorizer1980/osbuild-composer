@@ -3,7 +3,7 @@ module github.com/osbuild/osbuild-composer
 go 1.15
 
 require (
-	cloud.google.com/go/cloudbuild v0.2.0
+	cloud.google.com/go/cloudbuild v1.0.0
 	cloud.google.com/go/storage v1.18.1
 	github.com/Azure/azure-pipeline-go v0.2.3
 	github.com/Azure/azure-sdk-for-go v57.4.0+incompatible
@@ -15,7 +15,7 @@ require (
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
 	github.com/BurntSushi/toml v0.4.1
-	github.com/aws/aws-sdk-go v1.40.49
+	github.com/aws/aws-sdk-go v1.42.25
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coreos/go-semver v0.3.0
